@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:football_news/screens/newslist_form.dart';
 
-class NewsItem {
+class ItemCard {
   final String name;
   final IconData icon;
 
-  NewsItem(this.name, this.icon);
+  ItemCard(this.name, this.icon);
 }
 
 class NewsCard extends StatelessWidget {
-  final NewsItem item;
+  final ItemCard item;
 
   const NewsCard(this.item, {super.key});
 
